@@ -13,7 +13,10 @@ export default function Home() {
 	  </div>
 	  <div>
 	  <br />
-	  <p><Link href="/home"> Home </Link> | <Link href="/cv"> CV </Link></p> 
+	  <p><Link href="/home"> Home </Link> | 
+	     <Link href="/cv"> CV </Link> | 
+		 <Link href="/photos"> Photos </Link>
+	  </p> 
       <br />
 	  <h2>Home</h2>	  
 	  

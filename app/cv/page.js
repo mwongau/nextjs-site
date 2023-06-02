@@ -3,7 +3,10 @@ import Link from 'next/link'
 export default function CV() {
   return (
     <> 
-	<p><Link href="/home"> Home </Link> | <Link href="/cv"> CV </Link></p> 
+	<p><Link href="/home"> Home </Link> | 
+	     <Link href="/cv"> CV </Link> | 
+		 <Link href="/photos"> Photos </Link>
+	  </p> 
 	  
     <div className="CV">
 	<br />
