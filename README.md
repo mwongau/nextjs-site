@@ -1,3 +1,6 @@
+# Personal site of M Wong
+## This site is implemented by using Next.js framework, Javascript, HTML and CSS. Hosting is done by Github Pages.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

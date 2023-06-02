@@ -6,7 +6,9 @@ export default function CV() {
 	<p><Link href="/home"> Home </Link> | <Link href="/cv"> CV </Link></p> 
 	  
     <div className="CV">
+	<br />
 	<h1>CV of M Wong</h1>
+	<br />
 	<h3>Academic degrees</h3>
 	<ul>
 	<li>PhD in Computer Science </li>

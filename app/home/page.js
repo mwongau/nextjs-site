@@ -14,7 +14,7 @@ export default function Home() {
 	  <div>
 	  <br />
 	  <p><Link href="/home"> Home </Link> | <Link href="/cv"> CV </Link></p> 
-      
+      <br />
 	  <h2>Home</h2>	  
 	  
 	  <p>Welcome to my personal site. I am a researcher in computer vision and machine learning 
