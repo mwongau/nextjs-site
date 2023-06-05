@@ -1,7 +1,17 @@
+"use client";
 import Image from 'next/image';
-import Link from 'next/link'
+import Link from 'next/link';
+import React, { useState } from 'react';
 
 export default function Page() {
+  const [count, setCount] = useState(0);
+  function handleClick() {
+    setCount((count + 1) % 2);
+  }	  
+  let images = ["uts-bldg5.jpg", "acu.jpg"];
+  let desc = ["University of Technology Sydney, Building 5", "Australian Catholic University, Strathfield Campus"];
+  let alts = ["uts", "acu"]; 
+  
   return (
     <div>
 	  <p><Link href="/home"> Home </Link> | 
@@ -11,15 +21,11 @@ export default function Page() {
 	  <br />
 	  <h1>Photos</h1>
 	  <br />
-	  <h3>University of Technology Sydney, Building 5</h3> <br />
-      <Image src="uts-bldg5.jpg"
-        width={500} height={500} alt="UTS" />
+	  <button onClick={handleClick}>Click to select next photo</button>
 	  <br /><br />
-	  <h3>Australian Catholic University, Strathfield Campus</h3> <br />
-      <Image src="acu.jpg"
-        width={500} height={500} alt="ACU" />
-	  <br /><br />	
-	  
+	  <h3>{desc[count]}</h3> <br />
+      <Image src= {images[count]}
+        width={500} height={500} alt={alts[count]} />	  
     </div>
   );
 }
