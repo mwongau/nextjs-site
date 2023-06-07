@@ -3,15 +3,17 @@ import Link from 'next/link'
 export default function CV() {
   return (
     <> 
+	<div className="nav">
 	<p><Link href="/home"> Home </Link> | 
 	     <Link href="/cv"> CV </Link> | 
 		 <Link href="/photos"> Photos </Link>
-	  </p> 
+	</p> 
+	</div>
 	  
     <div className="CV">
-	<br />
+	
 	<h1>CV of M Wong</h1>
-	<br />
+	
 	<h3>Academic degrees</h3>
 	<ul>
 	<li>PhD in Computer Science </li>

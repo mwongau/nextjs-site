@@ -14,16 +14,18 @@ export default function Page() {
   
   return (
     <div>
+	  <div className="nav">
 	  <p><Link href="/home"> Home </Link> | 
 	     <Link href="/cv"> CV </Link> | 
 		 <Link href="/photos"> Photos </Link>
 	  </p> 
-	  <br />
+	  </div>
+	  
 	  <h1>Photos</h1>
-	  <br />
+	  
 	  <button onClick={handleClick}>Click to select next photo</button>
-	  <br /><br />
-	  <h3>{desc[count]}</h3> <br />
+	  
+	  <h3>{desc[count]}</h3>
       <Image src= {images[count]}
         width={500} height={500} alt={alts[count]} />	  
     </div>
