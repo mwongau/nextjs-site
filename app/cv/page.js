@@ -1,19 +1,14 @@
 import Link from 'next/link'
+import Nav from '../Nav.js'
+import Header from '../Header.js'
 
 export default function CV() {
   return (
     <> 
-	<div className="nav">
-	<p><Link href="/home"> Home </Link> | 
-	     <Link href="/cv"> CV </Link> | 
-		 <Link href="/photos"> Photos </Link>
-	</p> 
-	</div>
-	  
+	<Header />
+	<Nav />  
     <div className="CV">
-	
 	<h1>CV of M Wong</h1>
-	
 	<h3>Academic degrees</h3>
 	<ul>
 	<li>PhD in Computer Science </li>

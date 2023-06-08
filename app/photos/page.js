@@ -2,6 +2,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
+import Nav from '../Nav.js'
+import Header from '../Header.js'
 
 export default function Page() {
   const [count, setCount] = useState(0);
@@ -14,17 +16,10 @@ export default function Page() {
   
   return (
     <div>
-	  <div className="nav">
-	  <p><Link href="/home"> Home </Link> | 
-	     <Link href="/cv"> CV </Link> | 
-		 <Link href="/photos"> Photos </Link>
-	  </p> 
-	  </div>
-	  
-	  <h1>Photos</h1>
-	  
+	  <Header />
+	  <Nav />	  
+	  <h1>Photos</h1>	  
 	  <button onClick={handleClick}>Click to select next photo</button>
-	  
 	  <h3>{desc[count]}</h3>
       <Image src= {images[count]}
         width={500} height={500} alt={alts[count]} />	  
