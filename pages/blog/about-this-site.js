@@ -7,7 +7,7 @@ export default function About() {
   <p>This site is built by using Next.js, JavaScript, HTML and CSS. Hosting is
      done by Github Pages</p>
   <br />
-  <Link href="/home"> Home </Link>
+  
   </div>
   );
 }
