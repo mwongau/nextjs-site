@@ -18,7 +18,7 @@ export default function Page() {
     <div>
 	  <Header />
 	  <Nav />	  
-	  <h1>Photos</h1>	  
+	  <h2>Photos</h2>	  
 	  <button onClick={handleClick}>Click to select next photo</button>
 	  <h3>{desc[count]}</h3>
       <Image src= {images[count]}
