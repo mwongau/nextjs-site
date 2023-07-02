@@ -1,6 +1,6 @@
 import Link from 'next/link'
-import Nav from '../Nav.js'
-import Header from '../Header.js'
+import Nav from './Nav.js'
+import Header from './Header.js'
 
 export default function CV() {
   return (

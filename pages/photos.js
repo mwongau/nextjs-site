@@ -2,8 +2,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
-import Nav from '../Nav.js'
-import Header from '../Header.js'
+import Nav from './Nav.js'
+import Header from './Header.js'
 
 export default function Page() {
   const [count, setCount] = useState(0);
