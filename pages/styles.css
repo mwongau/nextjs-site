@@ -8,3 +8,7 @@ body {
 .nav {
   background-color: AliceBlue;
 }
+
+a {
+  text-decoration: none;
+}

@@ -1,9 +1,14 @@
 .header {
   color: purple;
   background-color: Lavender;
-  padding: 3px;
+  padding: 5px;
 }  
 
 .footer {
   background-color: AliceBlue;
+}
+
+.nav {
+  background-color: AliceBlue;
+  padding: 5px;
 }

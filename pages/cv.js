@@ -32,7 +32,7 @@ export default function CV() {
 	<h3>Skills & experience</h3>
 	<ul>
 	<li>Programming languages: Python, Java, JavaScript, C++</li>
-	<li>Web frameworks: Flask, Django, ReactJS</li>
+	<li>Web frameworks: Flask, Django, ReactJS, Next.js, Svelte, SvelteKit, Vue</li>
 	<li>Machine learning library: Tensorflow, scikit-learn, Weka</li>
 	<li>Computer vision library: OpenCV, scikit-image</li>
 	</ul>
